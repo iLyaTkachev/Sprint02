@@ -10,9 +10,9 @@
 
 @implementation HTTPCommunication
 
-- (void)retrieveURL:(NSURL *)url myBlock:(void(^)(NSData *))Block
+- (void)retrieveURL:(NSURL *)url myBlock:(void(^)(NSData *))block
 {
-    self.myBlock = Block;
+    self.myBlock = block;
     
     // создаем запрос, используя данный url 
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];

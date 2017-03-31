@@ -19,6 +19,7 @@
 		0910C7BB1E8504390002D86C /* mercedes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0910C7B71E8504390002D86C /* mercedes.png */; };
 		0910C7C41E8540A40002D86C /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0910C7C31E8540A40002D86C /* MyTableViewCell.m */; };
 		0911CB711E8DBADB00DA23F7 /* HTTPCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911CB701E8DBADB00DA23F7 /* HTTPCommunication.m */; };
+		0933445F1E8E7DFF00A2CBDA /* File in Resources */ = {isa = PBXBuildFile; fileRef = 0933445E1E8E7DFF00A2CBDA /* File */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		0910C7C31E8540A40002D86C /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		0911CB6F1E8DBADB00DA23F7 /* HTTPCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPCommunication.h; sourceTree = "<group>"; };
 		0911CB701E8DBADB00DA23F7 /* HTTPCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPCommunication.m; sourceTree = "<group>"; };
+		0933445E1E8E7DFF00A2CBDA /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				0910C7A91E8503E00002D86C /* Assets.xcassets */,
 				0910C7AB1E8503E00002D86C /* LaunchScreen.storyboard */,
 				0910C7AE1E8503E00002D86C /* Info.plist */,
+				0933445E1E8E7DFF00A2CBDA /* File */,
 				0910C79D1E8503E00002D86C /* Supporting Files */,
 			);
 			path = Sprint01ARC;
@@ -162,6 +165,7 @@
 				0910C7AD1E8503E00002D86C /* LaunchScreen.storyboard in Resources */,
 				0910C7BB1E8504390002D86C /* mercedes.png in Resources */,
 				0910C7B91E8504390002D86C /* BMW.png in Resources */,
+				0933445F1E8E7DFF00A2CBDA /* File in Resources */,
 				0910C7AA1E8503E00002D86C /* Assets.xcassets in Resources */,
 				0910C7B81E8504390002D86C /* Audi.png in Resources */,
 				0910C7A81E8503E00002D86C /* Main.storyboard in Resources */,
