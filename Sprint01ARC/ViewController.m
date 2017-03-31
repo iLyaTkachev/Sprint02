@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MyTableViewCell.h"
+#import "HTTPCommunication.h"
 
 @interface ViewController ()
 
@@ -20,8 +21,10 @@ NSArray *dataArray;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"plist"];
-    dataArray = [[NSArray alloc] initWithContentsOfFile:path];
+    //NSString *path = [[NSBundle mainBundle] pathForResource:@"Data" ofType:@"plist"];
+    //dataArray = [[NSArray alloc] initWithContentsOfFile:path];
+    dataArray = [[NSArray alloc]init];
+    [self retrieveRandomJokes];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,9 +45,23 @@ NSArray *dataArray;
         cell = [[MyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
     }
     cell.myTitleLabel.text=[[dataArray objectAtIndex:indexPath.row] objectForKey:@"title"];
-    cell.mySubtitleLabel.text=[[dataArray objectAtIndex:indexPath.row] objectForKey:@"subtitle"];
-    cell.myImageView.image = [UIImage imageNamed:[[dataArray objectAtIndex:indexPath.row] objectForKey:@"image_name"]];
+    //cell.mySubtitleLabel.text=[[dataArray objectAtIndex:indexPath.row] objectForKey:@"subtitle"];
+    //cell.myImageView.image = [UIImage imageNamed:[[dataArray objectAtIndex:indexPath.row] objectForKey:@"image_name"]];
 
     return cell;
 }
+
+- (void)retrieveRandomJokes
+{
+    HTTPCommunication *http = [[HTTPCommunication alloc] init];
+    NSURL *url = [NSURL URLWithString:@"https://api.myjson.com/bins/11zjtb"];
+    
+    // получаем info
+    [http retrieveURL:url myBlock:^(NSData *response)
+     {
+         // десериализуем полученную информацию
+         dataArray = [NSJSONSerialization JSONObjectWithData: response options:NSJSONReadingMutableContainers error:nil];
+     }];
+}
+
 @end
