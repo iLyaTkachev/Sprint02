@@ -45,7 +45,7 @@ NSArray *dataArray;
         cell = [[MyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
     }
     cell.myTitleLabel.text=[[dataArray objectAtIndex:indexPath.row] objectForKey:@"title"];
-    //cell.mySubtitleLabel.text=[[dataArray objectAtIndex:indexPath.row] objectForKey:@"subtitle"];
+    cell.mySubtitleLabel.text=[[dataArray objectAtIndex:indexPath.row] objectForKey:@"subtitle"];
     //cell.myImageView.image = [UIImage imageNamed:[[dataArray objectAtIndex:indexPath.row] objectForKey:@"image_name"]];
 
     return cell;
@@ -54,14 +54,16 @@ NSArray *dataArray;
 - (void)retrieveRandomJokes
 {
     HTTPCommunication *http = [[HTTPCommunication alloc] init];
-    NSURL *url = [NSURL URLWithString:@"https://raw.githubusercontent.com/iLyaTkachev/Sprint02/master/Sprint01ARC/File"];
+    NSURL *url = [NSURL URLWithString:@"https://raw.githubusercontent.com/iLyaTkachev/Sprint02/master/Sprint01ARC/File.json"];
     
     // получаем info
     [http retrieveURL:url myBlock:^(NSData *response)
      {
          // десериализуем полученную информацию
          dataArray = [NSJSONSerialization JSONObjectWithData: response options:NSJSONReadingMutableContainers error:nil];
+         [self.myTableView reloadData];
      }];
+    
 }
 
 @end
