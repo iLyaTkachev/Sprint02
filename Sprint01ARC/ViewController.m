@@ -54,7 +54,7 @@ NSArray *dataArray;
 - (void)retrieveRandomJokes
 {
     HTTPCommunication *http = [[HTTPCommunication alloc] init];
-    NSURL *url = [NSURL URLWithString:@"https://api.myjson.com/bins/11zjtb"];
+    NSURL *url = [NSURL URLWithString:@"https://raw.githubusercontent.com/iLyaTkachev/Sprint02/master/Sprint01ARC/File"];
     
     // получаем info
     [http retrieveURL:url myBlock:^(NSData *response)
