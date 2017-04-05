@@ -10,7 +10,7 @@
 
 @implementation HTTPCommunication
 
-- (void)retrieveURL:(NSURL *)url myBlock:(void(^)(NSData *))block
+- (void)retrieveURL:(NSURL *)url myBlock:(void(^)(NSArray *))block
 {
     self.myBlock = block;
     
@@ -32,12 +32,18 @@
 {
     // получаем загруженные данные из локального хранилища
     NSData *data = [NSData dataWithContentsOfURL:location];
-    
+    NSError *error = nil;
+    NSArray *dataArray = [NSJSONSerialization JSONObjectWithData: data options:NSJSONReadingMutableContainers error:&error];//parse in other thread
+    if (!error)
+    {
     // гарантируем, что вызов successBlock происходит в главном потоке
     dispatch_async(dispatch_get_main_queue(), ^{
         // вызываем сохраненный ранее блок как колбэк
-        self.myBlock(data);
+        self.myBlock(dataArray);
     });
+    }
 }
+
+
 
 @end
