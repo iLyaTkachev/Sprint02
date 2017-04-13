@@ -9,6 +9,8 @@
 #import "CustomViewController.h"
 
 @interface CustomViewController ()
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
+
 
 @end
 
@@ -17,6 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.titleLabel.text=self.titleText;
+    
 }
 
 - (void)didReceiveMemoryWarning {

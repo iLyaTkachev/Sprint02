@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomViewController : UIViewController
-
+@property (nonatomic, strong) NSString *titleText;
 @end

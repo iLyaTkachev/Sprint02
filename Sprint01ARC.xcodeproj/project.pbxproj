@@ -19,7 +19,13 @@
 		0910C7BB1E8504390002D86C /* mercedes.png in Resources */ = {isa = PBXBuildFile; fileRef = 0910C7B71E8504390002D86C /* mercedes.png */; };
 		0910C7C41E8540A40002D86C /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0910C7C31E8540A40002D86C /* MyTableViewCell.m */; };
 		0911CB711E8DBADB00DA23F7 /* HTTPCommunication.m in Sources */ = {isa = PBXBuildFile; fileRef = 0911CB701E8DBADB00DA23F7 /* HTTPCommunication.m */; };
+		0927291B1E962736003306B2 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0927291A1E962736003306B2 /* CustomViewController.m */; };
 		0933445F1E8E7DFF00A2CBDA /* File.json in Resources */ = {isa = PBXBuildFile; fileRef = 0933445E1E8E7DFF00A2CBDA /* File.json */; };
+		0956B7B51E9F995C00667B2C /* CarMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956B7AE1E9F995C00667B2C /* CarMO+CoreDataProperties.m */; };
+		0956B7B61E9F995C00667B2C /* CarMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956B7B01E9F995C00667B2C /* CarMO.m */; };
+		0956B7B71E9F995C00667B2C /* EngineMO+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956B7B21E9F995C00667B2C /* EngineMO+CoreDataProperties.m */; };
+		0956B7B81E9F995C00667B2C /* EngineMO.m in Sources */ = {isa = PBXBuildFile; fileRef = 0956B7B41E9F995C00667B2C /* EngineMO.m */; };
+		0975BD2C1E9EDA8D00A278F6 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0975BD2A1E9EDA8D00A278F6 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +47,18 @@
 		0910C7C31E8540A40002D86C /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		0911CB6F1E8DBADB00DA23F7 /* HTTPCommunication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPCommunication.h; sourceTree = "<group>"; };
 		0911CB701E8DBADB00DA23F7 /* HTTPCommunication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPCommunication.m; sourceTree = "<group>"; };
+		092729191E962736003306B2 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		0927291A1E962736003306B2 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
 		0933445E1E8E7DFF00A2CBDA /* File.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = File.json; sourceTree = "<group>"; };
+		0956B7AD1E9F995C00667B2C /* CarMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CarMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0956B7AE1E9F995C00667B2C /* CarMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CarMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0956B7AF1E9F995C00667B2C /* CarMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarMO.h; sourceTree = "<group>"; };
+		0956B7B01E9F995C00667B2C /* CarMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarMO.m; sourceTree = "<group>"; };
+		0956B7B11E9F995C00667B2C /* EngineMO+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EngineMO+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0956B7B21E9F995C00667B2C /* EngineMO+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EngineMO+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0956B7B31E9F995C00667B2C /* EngineMO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EngineMO.h; sourceTree = "<group>"; };
+		0956B7B41E9F995C00667B2C /* EngineMO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EngineMO.m; sourceTree = "<group>"; };
+		0975BD2B1E9EDA8D00A278F6 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,14 @@
 		0910C7911E8503E00002D86C = {
 			isa = PBXGroup;
 			children = (
+				0956B7AD1E9F995C00667B2C /* CarMO+CoreDataProperties.h */,
+				0956B7AE1E9F995C00667B2C /* CarMO+CoreDataProperties.m */,
+				0956B7AF1E9F995C00667B2C /* CarMO.h */,
+				0956B7B01E9F995C00667B2C /* CarMO.m */,
+				0956B7B11E9F995C00667B2C /* EngineMO+CoreDataProperties.h */,
+				0956B7B21E9F995C00667B2C /* EngineMO+CoreDataProperties.m */,
+				0956B7B31E9F995C00667B2C /* EngineMO.h */,
+				0956B7B41E9F995C00667B2C /* EngineMO.m */,
 				0910C79C1E8503E00002D86C /* Sprint01ARC */,
 				0910C79B1E8503E00002D86C /* Products */,
 			);
@@ -78,15 +103,17 @@
 				0910C7A11E8503E00002D86C /* AppDelegate.m */,
 				0910C7A31E8503E00002D86C /* ViewController.h */,
 				0910C7A41E8503E00002D86C /* ViewController.m */,
+				092729191E962736003306B2 /* CustomViewController.h */,
+				0927291A1E962736003306B2 /* CustomViewController.m */,
 				0910C7C21E8540A40002D86C /* MyTableViewCell.h */,
 				0910C7C31E8540A40002D86C /* MyTableViewCell.m */,
 				0911CB6F1E8DBADB00DA23F7 /* HTTPCommunication.h */,
-				0911CB701E8DBADB00DA23F7 /* HTTPCommunication.m */,
 				0910C7A61E8503E00002D86C /* Main.storyboard */,
 				0910C7A91E8503E00002D86C /* Assets.xcassets */,
 				0910C7AB1E8503E00002D86C /* LaunchScreen.storyboard */,
 				0910C7AE1E8503E00002D86C /* Info.plist */,
-				0933445E1E8E7DFF00A2CBDA /* File.json */,
+				0911CB701E8DBADB00DA23F7 /* HTTPCommunication.m */,
+				0975BD2A1E9EDA8D00A278F6 /* Model.xcdatamodeld */,
 				0910C79D1E8503E00002D86C /* Supporting Files */,
 			);
 			path = Sprint01ARC;
@@ -99,6 +126,7 @@
 				0910C7B51E8504390002D86C /* BMW.png */,
 				0910C7B71E8504390002D86C /* mercedes.png */,
 				0910C7B61E8504390002D86C /* Data.plist */,
+				0933445E1E8E7DFF00A2CBDA /* File.json */,
 				0910C79E1E8503E00002D86C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -135,6 +163,7 @@
 				TargetAttributes = {
 					0910C7991E8503E00002D86C = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = P6QZ6LRQ84;
 					};
 				};
 			};
@@ -179,9 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0956B7B81E9F995C00667B2C /* EngineMO.m in Sources */,
 				0910C7A51E8503E00002D86C /* ViewController.m in Sources */,
+				0956B7B71E9F995C00667B2C /* EngineMO+CoreDataProperties.m in Sources */,
+				0927291B1E962736003306B2 /* CustomViewController.m in Sources */,
+				0956B7B51E9F995C00667B2C /* CarMO+CoreDataProperties.m in Sources */,
 				0911CB711E8DBADB00DA23F7 /* HTTPCommunication.m in Sources */,
+				0975BD2C1E9EDA8D00A278F6 /* Model.xcdatamodeld in Sources */,
 				0910C7C41E8540A40002D86C /* MyTableViewCell.m in Sources */,
+				0956B7B61E9F995C00667B2C /* CarMO.m in Sources */,
 				0910C7A21E8503E00002D86C /* AppDelegate.m in Sources */,
 				0910C79F1E8503E00002D86C /* main.m in Sources */,
 			);
@@ -293,10 +328,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Sprint01ARC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iLyaTkachev.Sprint01ARC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -304,10 +343,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Sprint01ARC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iLyaTkachev.Sprint01ARC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -333,6 +376,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0975BD2A1E9EDA8D00A278F6 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0975BD2B1E9EDA8D00A278F6 /* Model.xcdatamodel */,
+			);
+			currentVersion = 0975BD2B1E9EDA8D00A278F6 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0910C7921E8503E00002D86C /* Project object */;
 }

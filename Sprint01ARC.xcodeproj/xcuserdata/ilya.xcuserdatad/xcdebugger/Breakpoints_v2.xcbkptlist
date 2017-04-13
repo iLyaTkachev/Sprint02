@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sprint01ARC/ViewController.m"
-            timestampString = "513079101.440371"
+            timestampString = "513776478.784257"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sprint01ARC/ViewController.m"
-            timestampString = "513079101.440371"
+            timestampString = "513776478.784257"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "-DownloadImage:URL:"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "-downloadImage:URL:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sprint01ARC/ViewController.m"
-            timestampString = "513079101.440371"
+            timestampString = "513776478.784257"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "-DownloadImage:URL:"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "-downloadImage:URL:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,12 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sprint01ARC/ViewController.m"
-            timestampString = "513079101.440371"
+            timestampString = "513776478.784257"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
-            landmarkName = "-DownloadImage:URL:"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "-downloadImage:URL:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -74,12 +74,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sprint01ARC/ViewController.m"
-            timestampString = "513079101.440371"
+            timestampString = "513776478.784257"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
-            landmarkName = "-DownloadImage:URL:"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "-downloadImage:URL:"
             landmarkType = "5">
             <Locations>
                <Location
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Sprint01ARC/ViewController.m"
-            timestampString = "513079101.440371"
+            timestampString = "513776478.784257"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>

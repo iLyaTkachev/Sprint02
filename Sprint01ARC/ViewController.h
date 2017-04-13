@@ -7,10 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 
 @interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *myTableView;
 
+@property (nonatomic,strong) NSManagedObjectContext* managedObjectContext;
+@property (nonatomic, retain) NSFetchedResultsController *fetchedResultsController;
 
 @end
 

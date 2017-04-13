@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="16A313a" minimumToolsVersion="Xcode 7.0">
-    <elements/>
+    <entity name="Car" representedClassName="CarMO" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="mark" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="engine" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Engine" syncable="YES"/>
+    </entity>
+    <entity name="Engine" representedClassName="EngineMO" syncable="YES">
+        <attribute name="power" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Car" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Engine" positionX="-45" positionY="27" width="128" height="60"/>
+    </elements>
 </model>
